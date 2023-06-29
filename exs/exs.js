@@ -7,3 +7,6 @@ const airplaneSeats = [
     ['Rin', 'Sakura', 'Francisco']
 ];
 
+//exercício Arrays
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+
