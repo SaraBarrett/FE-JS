@@ -1,4 +1,6 @@
-//alert('hello world');
+function helloWorld(){
+    alert('hello world');
+}
 
 //let myName = 'Sara';
 //let myLuckyNumber = 16;
@@ -80,4 +82,45 @@ const airplaneSeats = [
 airplaneSeats[3][1] = 'Sara';
 
 console.log(airplaneSeats);
-*/
+
+
+const product = {name:'camisola', inStock: true, price: 1.99, colors:['vermelho', 'azul', 'verde']}; 
+
+console.log(product.price);
+console.log(product.colors[2]);
+
+product.price = 2.55;
+
+console.log(product);
+
+for(let i = 1 ; i<7; i++){
+    console.log(i);
+    console.log('asbadbadj adadadok');
+}
+
+for(let i = 25 ; i>5; i-=5){
+    console.log(i);
+}
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+
+for(i=0; i<people.length; i++){
+    console.log(people[i].toUpperCase());
+
+
+}
+
+let listaDeCompras = [];
+let item = '';
+let end = 'fim';
+while(item != end){
+    item = prompt(' Digite um item. Se quiser finalizar escreva fim');
+ 
+    if(item != end){
+        listaDeCompras.push(item);
+    }
+}
+for(element of listaDeCompras){
+    console.log(element);
+}*/
+
+
