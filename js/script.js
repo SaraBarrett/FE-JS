@@ -1,6 +1,7 @@
-function helloWorld(){
+/*function helloWorld(){
     alert('hello world');
-}
+}*/
+
 
 //let myName = 'Sara';
 //let myLuckyNumber = 16;
@@ -92,12 +93,18 @@ console.log(product.colors[2]);
 product.price = 2.55;
 
 console.log(product);
+*/
 
-for(let i = 1 ; i<7; i++){
+function music(){
+    for(let i = 1 ; i<7; i++){
     console.log(i);
     console.log('asbadbadj adadadok');
 }
+}
 
+
+
+/*
 for(let i = 25 ; i>5; i-=5){
     console.log(i);
 }
@@ -121,6 +128,46 @@ while(item != end){
 }
 for(element of listaDeCompras){
     console.log(element);
-}*/
+}
 
 
+function heart(){
+    alert('<3');
+}
+*/
+function alertSomething(name){
+    alert(name);
+
+}
+
+function rant(message){
+    for(i = 1; i<4; i++){
+        console.log(i, message.toUpperCase());
+    }
+
+}
+
+function myName(firstName, lastName){
+    alert('Hey'+ firstName + '' + lastName +'.');
+
+    alert(`Hey+ ${firstName} ${lastName}.`);
+}
+
+
+let snakeEyes = 1;
+
+function isSnakeEyes(num1, num2){
+
+    if(num1 == snakeEyes && num2 == snakeEyes){
+        console.log('yay');
+    }else{
+        console.log('tenta outra vez');
+    }
+    
+}
+
+function multiply(num1, num2){
+    let total = num1 * num2;
+return total;
+
+}
