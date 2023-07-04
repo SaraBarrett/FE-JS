@@ -171,3 +171,67 @@ function multiply(num1, num2){
 return total;
 
 }
+
+function isShortWeather(temperature){
+    if(temperature >25){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+
+function lastElement(array){
+if(array.length < 1){
+ return null;
+}else{
+ return array[array.length - 1];
+}
+
+}
+
+
+function capitalize(name){
+   let secondPart = name.slice(1);
+   return name[0].toUpperCase()+secondPart.toLowerCase();
+}
+
+
+
+function sumArray(arrayNum){
+    let total = 0;
+    for(let element of arrayNum){
+        total += element;
+    }
+return total; 
+}
+
+const daysOfWeek = [null, 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo'];
+
+function returnDay(day){
+if(day >0 && day <8){
+    return daysOfWeek[day];
+}else{
+    return null; 
+}
+}
+
+const fullNames = [
+    {first: 'Albus', last: 'Dumbledore'}, 
+    {first: 'Harry', last: 'Potter'}, 
+    {first: 'Hermione', last: 'Granger'}, 
+    {first: 'Ron', last: 'Weasley'}, 
+    {first: 'Rubeus', last: 'Hagrid'}, 
+    {first: 'Minerva', last: 'McGonagall'}, 
+    {first: 'Severus', last: 'Snape'}
+];
+
+const firstNames = fullNames.map(
+    function (firstname){
+        return firstname.first;
+    }
+)
+
+
+
+
